@@ -79,3 +79,16 @@ h1{
     background-color: #CA9CE1;
     transform: scale(1.05);
 }
+.list-task{
+    list-style: none;
+}
+
+.item{
+    background-color: #fff;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
