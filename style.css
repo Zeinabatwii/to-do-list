@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1.5;
+    background-color: #fff0f5;
+    color: #333;
+}
+
+header , footer {
+    background-color: #F2BEFC;
+    text-align: center;
+    padding:1rem ;
+    border-radius: 0 0 15px 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 2rem;
+    color: #685F74;
+    text-shadow: 0 4px 4px #CA9CE1;
+}
+
+.main{
+    max-width: 500px ;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #F3E0EC;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(225,182,193,0.3);
+}
+
+.add form{
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.add input[type="text"]{
+    flex: 1;
+    padding: 0.5 rem;
+    border: 2px #ffb6c1;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.add button{
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #F2BEFC;
+    color:#685F74;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.add button:hover{
+    background-color: #fff0f5;
+}
+.filter-bar{
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.filter-bar .filter{
+    flex: 1;
+    padding: 0.5rem;
+    border: 2px ;
+    background-color:#F2BEFC ;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.filter-bar .filter:hover{
+    background-color: #CA9CE1;
+    transform: scale(1.05);
+}
